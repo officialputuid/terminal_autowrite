@@ -1,12 +1,8 @@
 # TERMINAL AUTO WRITE
 
-TypewriteTerminal 👌
-This is a HTML Code
+TypewriteTerminal | This is a HTML Code!
 
-You can use for your personal web (if you want to look like a programmer, LOL 😅)
-
---
-
+You can use for your personal web (if you want to look like a programmer!)
 If you doesn't like the color, just change it
 
 Color customize : http://www.color-hex.com
