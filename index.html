@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet prefetch" href="https://preview.codepad.co/css/normalize.min.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="default.css" rel="stylesheet">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>root@officialputuid:~$</title>
+</head>
+
+<body>
+    <!--CHANGE BUBBLE--><div id="bubble"></div>
+    <div class="terminal">
+        <span class="dollar"></span> Hello World!
+        <br/>
+        <span class="dollar"></span> I'm PutuJayaAdiPranata!
+        <br/>
+        <span class="dollar"></span> a Noob!
+        <br/>
+        <span class="dollar"></span> I Lived in Indonesia!
+        <br/>
+        <span class="dollar"></span> Just it!
+        <br/>
+        <span class="dollar"></span> Nice to Meet You!
+    </div>
+    <script type="text/javascript">
+        $.fn.typewriter = function() {
+          this.each(function() {
+            var c = $(this),
+              b = c.html(),
+              a = 0,
+              d = 0;
+            c.html("");
+            var e = function() {
+              if ("<" == b.substring(a, a + 1)) {
+                var f = new RegExp(/<span class="instant"/),
+                  g = new RegExp(/<span class="clear"/);
+                if (b.substring(a, b.length).match(f)) a += b.substring(a, b.length).indexOf("</span>") + 7;
+                else if (b.substring(a, b.length).match(g)) d = a, a += b.substring(a, b.length).indexOf("</span>") + 7;
+                else
+                  for (;
+                    ">" != b.substring(a, a + 1);) a++
+              }
+              c.html(b.substring(d, a++) + (a & 1 ? "_" : ""));
+              a >= b.length || setTimeout(e, 70 + 100 *
+                Math.random())
+            };
+            e()
+          });
+          return this
+        };
+        $(".terminal").typewriter();
+    </script>
+
+    <div class="sosialmedia">
+      <a href="https://facebook.com/officialputuid"><i class="fa fa-facebook"></i></a>
+      <a href="https://plus.google.com/u/0/+officialputuid"><i class="fa fa-google-plus"></i></a>
+      <a href="https://instagram.com/officialputuid"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/officialputuid"><i class="fa fa-twitter"></i></a>
+    </div>
+
+    <div class="copyright">
+      <p style="text-align: right; font-size: 10px;">Copyright &copy; 2018<br>Powered by Dandy<br>Modified by officialputuid</p>
+    </div>
+
+  <!--CHANGE BUBBLE--> <!-- For bubble style -->
+  <script src="bubble.js"></script>
+  <script src="init-bubble.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body, html {
+     margin: 0;
+     padding: 0;
+}
+ * {
+     margin: 0;
+     padding: 0;
+     -webkit-font-smoothing: antialiased;
+}
+ html, body {
+     height: 100%;
+     margin: 0;
+     width: 100%;
+}
+ body {
+     font: 12px "Monaco", Inconsolata, monospace;
+     background: #1b2f4d;
+     color: #f8f8f8;
+}
+ .terminal {
+     background: transparent;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin-top: -50px;
+     margin-left: -125px;
+     text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.4);
+     width: 400px;
+     font: inherit;
+     border: none;
+     outline: none;
+     color: inherit;
+}
+ .dollar:before {
+     content: 'root@officialputuid:~$';
+     color: #52a563;
+}
+ .home {
+     color: #e28d47;
+     padding-bottom: 3px;
+}
+ a {
+     font: 12px "Monaco", Inconsolata, monospace;
+     text-decoration: underline;
+     color: #f8f8f8;
+}
+
+div.sosialmedia{
+     position: absolute;
+     bottom: 10px;
+     left: 10px;
+}
+div.sosialmedia a{
+     padding-right: 10px;
+     text-decoration: none;
+     color: #FFF;
+     font-family: Arial;
+}
+div.sosialmedia a i{
+     font-size: 16px;
+}
+div.copyright{
+     position: absolute;
+     bottom: 10px;
+     right: 10px;
+     text-transform: uppercase;
+}
+
+.sketch{
+     max-width: 100%;
+     max-height: 100%;
+}
